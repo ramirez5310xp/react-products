@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
 
 function App() {
   
-
   return (
-    <div>
-      <h1>Gestion de productos</h1>
-    </div>
-      )
+    <>
+      <Navbar />
+      <main>
+        <Home />
+        <Products />
+      </main>
+    </>
+  );
+  
 }
 
 export default App
