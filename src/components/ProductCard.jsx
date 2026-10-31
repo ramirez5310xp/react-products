@@ -1,9 +1,24 @@
-function ProductCard() {
+import {Link} from 'react-router-dom';
+
+
+function ProductCard({ product, onEdit, onDelete}) {
+  
   return (
-    <article>
-      <h3>Producto</h3>
-      <p>Informacion de producto.</p>
-      
+    <article className="product-card">
+      <img src={product.thumbnail} alt={product.title} />
+
+      <h3>{product.title}</h3>
+      <p>{product.category}</p>
+      <strong>${product.price}</strong>
+
+        <div className="actions">
+  
+        <Link to={`/products/${product.id}`}> Ver detalles</Link>
+        <button onClick={() => onEdit(product)}>Editar</button>
+        <button onClick={() => onDelete(product.id)}>Eliminar</button>
+
+       </div>
+
     </article>
   );
 }

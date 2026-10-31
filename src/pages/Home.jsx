@@ -1,8 +1,8 @@
 function Home() {
   return (
     <section>
-      <h1>Gestion de productos</h1>
-      <p>Aplicacion desarrollada con React para consumir productos desde DummyJSON</p>
+      <h1>Gestión de Productos</h1>
+      <p>Aplicación desarrollada con React para consumir productos desde DummyJSON.</p>
     </section>
   );
 }
