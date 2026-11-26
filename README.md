@@ -2,7 +2,7 @@
 
 ## Demo en línea
 
-https://ramirez5310xp.github.io/react-products/
+https://ramirez5310xp.github.io/Eduardo_Ramirez/react-products/
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
